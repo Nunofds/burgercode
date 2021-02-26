@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Burger Code</title>
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+        <!-- CSS link -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- BOOTSTRAP CSS link -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <!-- Jquery CSS link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- GLYPHICONS FONT AWESOME LINK -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    </head>
+    <body>
+        <div class="container site">
+            <!-- TITRE -->
+            <h1 class="text-logo"><span><i class="fas fa-utensils"></i></span> Burger Code <span><i class="fas fa-utensils"></i></span></h1>
+            <!-- NAVBAR -->
+            <nav>
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="nav-item active">
+                        <a class="nav-link" href="#1" data-toggle="tab">Menus</a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link" href="#2" data-toggle="tab">Burgers</a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link" href="#3" data-toggle="tab">Snacks</a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link" href="#4" data-toggle="tab">Salades</a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link" href="#5" data-toggle="tab">Boissons</a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                        <a class="nav-link" href="#6" data-toggle="tab">Desserts</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- CONTENUE PAGE -->
+            <div class="tab-content">
+                <!-- CONTENUE ONGLET 1 (menus) -->
+                <div class="tab-pane active" id="1">
+                    <div class="row">
+                        <!-- #1 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/m1.png" alt="...">
+                                <div class="price">8,90 €</div>
+                                <div class="caption">
+                                    <h4>Menu Classic</h4>
+                                    <p>Sandwich: Burger, Fromage, Salade, Tomate, Cornichon + Frites + Boisson </p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #2 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/m2.png" alt="...">
+                                <div class="price">9,50 €</div>
+                                <div class="caption">
+                                    <h4>Menu Bacon</h4>
+                                    <p>Sandwich: Burger, Fromage, Bacon, Salade, Tomate + Frites + Boisson</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #3 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/m3.png" alt="...">
+                                <div class="price">9,90 €</div>
+                                <div class="caption">
+                                    <h4>Menu Big</h4>
+                                    <p>Sandwich: Double Burger, Fromage, Cornichon, Salade + Frites + Boisson</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #4 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/m4.png" alt="...">
+                                <div class="price">9,90 €</div>
+                                <div class="caption">
+                                    <h4>Menu Chicken</h4>
+                                    <p>Sandwich: Poulet Frit, Tomate, Salade, Mayonnaise + Frites + Boisson</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #5 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/m5.png" alt="...">
+                                <div class="price">10,90 €</div>
+                                <div class="caption">
+                                    <h4>Menu Fish</h4>
+                                    <p>Sandwich: Poisson Pané, Salade, Mayonnaise, Cornichon + Frites + Boisson</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #6 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/m6.png" alt="...">
+                                <div class="price">11,90 €</div>
+                                <div class="caption">
+                                    <h4>Menu Double Steack</h4>
+                                    <p>Sandwich: Double Burger, Fromage, Bacon, Salade, Tomate + Frites + Boisson</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENUE ONGLET 2 (burgers) -->
+                <div class="tab-pane" id="2">
+                    <div class="row">
+                        <!-- #1 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/b1.png" alt="...">
+                                <div class="price">5,90 €</div>
+                                <div class="caption">
+                                    <h4>Classic</h4>
+                                    <p>Sandwich: Burger,Fromage, Salade, Tomate, Cornichon</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #2 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/b2.png" alt="...">
+                                <div class="price">6,50 €</div>
+                                <div class="caption">
+                                    <h4>Bacon</h4>
+                                    <p>Sandwich: Burger, Fromage, Bacon, Salade, Tomate</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #3 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/b3.png" alt="...">
+                                <div class="price">6,90 €</div>
+                                <div class="caption">
+                                    <h4>Big</h4>
+                                    <p>Sandwich: Double Burger, Fromage, Cornichon, Salade</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #4 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/b4.png" alt="...">
+                                <div class="price">5,90 €</div>
+                                <div class="caption">
+                                    <h4>Chicken</h4>
+                                    <p>Sandwich: Poulet Frit, Tomate, Salade, Mayonnaise</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #5 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/b5.png" alt="...">
+                                <div class="price">6,50 €</div>
+                                <div class="caption">
+                                    <h4>Fish</h4>
+                                    <p>Sandwich: Poisson Pané, Salade, Mayonnaise, Cornichon</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #6 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/b6.png" alt="...">
+                                <div class="price">7,50 €</div>
+                                <div class="caption">
+                                    <h4>Double Steack</h4>
+                                    <p>Sandwich: Double Burger, Fromage, Bacon, Salade, Tomate</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENUE ONGLET 3 (snacks) -->
+                <div class="tab-pane" id="3">
+                    <div class="row">
+                        <!-- #1 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/s1.png" alt="...">
+                                <div class="price">3,90 €</div>
+                                <div class="caption">
+                                    <h4>Frites Maison</h4>
+                                    <p>Pommes de terre frites maison</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #2 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/s2.png" alt="...">
+                                <div class="price">3,40 €</div>
+                                <div class="caption">
+                                    <h4>Onion Rings</h4>
+                                    <p>Rondelles d'oignons frits</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #3 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/s3.png" alt="...">
+                                <div class="price">5,90 €</div>
+                                <div class="caption">
+                                    <h4>Nuggets</h4>
+                                    <p>Nuggets de poulet frits</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #4 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/s4.png" alt="...">
+                                <div class="price">3,50 €</div>
+                                <div class="caption">
+                                    <h4>Nuggets Fromage</h4>
+                                    <p>Nuggets de fromage frits</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #5 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/s5.png" alt="...">
+                                <div class="price">5,90 €</div>
+                                <div class="caption">
+                                    <h4>Ailes de Poulet</h4>
+                                    <p>Ailes de poulet barbecue</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENUE ONGLET 4 (salades) -->
+                <div class="tab-pane" id="4">
+                    <div class="row">
+                        <!-- #1 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/sa1.png" alt="...">
+                                <div class="price">8,90 €</div>
+                                <div class="caption">
+                                    <h4>César Poulet Pané</h4>
+                                    <p>Poulet Pané, Salade, Tomate et la fameuse sauce César</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #2 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/sa2.png" alt="...">
+                                <div class="price">8,90 €</div>
+                                <div class="caption">
+                                    <h4>César Poulet Grillé</h4>
+                                    <p>Poulet Grillé, Salade, Tomate et la fameuse sauce César</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #3 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/sa3.png" alt="...">
+                                <div class="price">5,90 €</div>
+                                <div class="caption">
+                                    <h4>Salade Light</h4>
+                                    <p>Salade, Tomate, Concombre, Mais et Vinaigre balsamique</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #4 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/sa4.png" alt="...">
+                                <div class="price">7,90 €</div>
+                                <div class="caption">
+                                    <h4>Poulet Pané</h4>
+                                    <p>Poulet Pané, Salade, Tomate et sauce de votre choix</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #5 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/sa5.png" alt="...">
+                                <div class="price">7,90 €</div>
+                                <div class="caption">
+                                    <h4>Poulet Grillé</h4>
+                                    <p>Poulet Grillé, Salade, Tomate et sauce de votre choix</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENUE ONGLET 5 (boissons) -->
+                <div class="tab-pane" id="5">
+                    <div class="row">
+                        <!-- #1 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/bo1.png" alt="...">
+                                <div class="price">1,90 €</div>
+                                <div class="caption">
+                                    <h4>Coca-Cola</h4>
+                                    <p>Au choix: Petit, Moyen ou Grand</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #2 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/bo2.png" alt="...">
+                                <div class="price">1,90 €</div>
+                                <div class="caption">
+                                    <h4>Coca-Cola Light</h4>
+                                    <p>Au choix: Petit, Moyen ou Grand</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #3 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/bo3.png" alt="...">
+                                <div class="price">1,90 €</div>
+                                <div class="caption">
+                                    <h4>Coca-Cola Zéro</h4>
+                                    <p>Au choix: Petit, Moyen ou Grand</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #4 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/bo4.png" alt="...">
+                                <div class="price">1,90 €</div>
+                                <div class="caption">
+                                    <h4>Fanta</h4>
+                                    <p>Au choix: Petit, Moyen ou Grand</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #5 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/bo5.png" alt="...">
+                                <div class="price">1,90 €</div>
+                                <div class="caption">
+                                    <h4>Sprite</h4>
+                                    <p>Au choix: Petit, Moyen ou Grand</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #6 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/bo6.png" alt="...">
+                                <div class="price">1,90 €</div>
+                                <div class="caption">
+                                    <h4>Nestea</h4>
+                                    <p>Au choix: Petit, Moyen ou Grand</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CONTENUE ONGLET 6 (desserts) -->
+                <div class="tab-pane" id="6">
+                    <div class="row">
+                        <!-- #1 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/d1.png" alt="...">
+                                <div class="price">4,90 €</div>
+                                <div class="caption">
+                                    <h4>Fondant au Chocolat</h4>
+                                    <p>Au choix: Chocolat blanc ou au lait</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #2 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/d2.png" alt="...">
+                                <div class="price">2,90 €</div>
+                                <div class="caption">
+                                    <h4>Muffin</h4>
+                                    <p>Au choix: Aux fruits ou au chocolat</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #3 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/d3.png" alt="...">
+                                <div class="price">2,90 €</div>
+                                <div class="caption">
+                                    <h4>Beignet</h4>
+                                    <p>Au choix: Au chocolat ou vanille</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #4 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/d4.png" alt="...">
+                                <div class="price">3,90 €</div>
+                                <div class="caption">
+                                    <h4>Milkshake</h4>
+                                    <p>Au choix: Fraise, Vanille ou Chocolat</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #5 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="img-thumbnail">
+                                <img src="images/d5.png" alt="...">
+                                <div class="price">4,90 €</div>
+                                <div class="caption">
+                                    <h4>Sundae</h4>
+                                    <p>Au choix: Fraise, Caramel ou Chocolat</p>
+                                    <button class="btn btn-primary" type="submit">
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-dash-fill" viewBox="0 0 16 16">
+                                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM6.5 7h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z"/>
+                                            </svg>
+                                        </span> Commander
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN CONTENUE PAGE -->
+        </div>
+
+        <!-- Jquery CSS link -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- BOOTSTRAP JS link -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</html>

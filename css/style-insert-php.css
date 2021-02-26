@@ -1,0 +1,11 @@
+/* CSS pour la page INSERT.PHP */
+
+/* couleur des messages d'erreur */
+.help-inline {
+  color: red;
+}
+
+/* margin-bottom du formulaire */
+.form {
+  margin-bottom: 60px;
+}
